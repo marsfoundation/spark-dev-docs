@@ -1,7 +1,6 @@
 # Table of contents
 
-* [Page](README.md)
-
+* [Spark Developer Documentation](README.md)
 
 ## 🏪 SparkLend
 
@@ -26,8 +25,6 @@
   * [DebtToken](sparklend/tokens/debttoken.md)
   * [DelegationAwareSpToken](sparklend/tokens/delegationawaresptoken.md)
 
-## Spark Spells
-
 ## 💸 sDAI
 
 * [sDAI Overview](sdai/sdai-overview.md)
@@ -36,12 +33,12 @@
 ## 🚇 Conduits
 
 * [Conduits Overview](conduits/conduits-overview.md)
-* [SparkLend Conduit ⚡](conduits/spark-conduit.md)
+* [SparkLend Conduit ⚡](conduits/sparklend-conduit.md)
 
 ## Deployed Contracts
 
 * [Deployed Contracts Overview](deployed-contracts/deployed-contracts-overview.md)
-* [Ethereum Addresses](deployed-contracts/mainnet-addresses.md)
-* [Gnosis Chain Addresses](deployed-contracts/gnosis-addresses.md)
-* [Goerli Addresses](deployed-contracts/testnet-addresses.md)
+* [Ethereum Addresses](deployed-contracts/ethereum-addresses.md)
+* [Gnosis Chain Addresses](deployed-contracts/gnosis-chain-addresses.md)
+* [Goerli Addresses](deployed-contracts/goerli-addresses.md)
 * [Security & Audits](deployed-contracts/security-and-audits.md)

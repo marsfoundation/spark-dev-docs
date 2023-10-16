@@ -37,8 +37,8 @@
 
 ## Deployed Contracts
 
-* [Deployed Contracts Overview](deployed-contracts/deployed-contracts-overview.md)
-* [Ethereum Addresses](deployed-contracts/ethereum-addresses.md)
-* [Gnosis Chain Addresses](deployed-contracts/gnosis-chain-addresses.md)
-* [Goerli Addresses](deployed-contracts/goerli-addresses.md)
-* [Security & Audits](deployed-contracts/security-and-audits.md)
+* [Deployed Contracts Overview](deployment-addresses/deployed-contracts-overview.md)
+* [Ethereum Addresses](deployment-addresses/ethereum-addresses.md)
+* [Gnosis Chain Addresses](deployment-addresses/gnosis-chain-addresses.md)
+* [Goerli Addresses](deployment-addresses/goerli-addresses.md)
+* [Security & Audits](deployment-addresses/security-and-audits.md)

@@ -1,2 +1,0 @@
-# Goerli Addresses
-

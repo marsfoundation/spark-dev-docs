@@ -27,18 +27,20 @@
 
 ## 💸 sDAI
 
-* [sDAI Overview](sdai/sdai-overview.md)
 * [Technical Docs](sdai/technical-docs.md)
 
 ## 🚇 Conduits
 
-* [Conduits Overview](conduits/conduits-overview.md)
-* [SparkLend Conduit ⚡](conduits/sparklend-conduit.md)
+* [Conduits Overview](sparkconduits/conduits-overview.md)
+* [SparkLend Conduit ⚡](sparkconduits/sparklend-conduit.md)
 
-## Deployed Contracts
+## Deployment Addresses
 
-* [Deployed Contracts Overview](deployment-addresses/deployed-contracts-overview.md)
 * [Ethereum Addresses](deployment-addresses/ethereum-addresses.md)
 * [Gnosis Chain Addresses](deployment-addresses/gnosis-chain-addresses.md)
 * [Goerli Addresses](deployment-addresses/goerli-addresses.md)
 * [Security & Audits](deployment-addresses/security-and-audits.md)
+
+## Security
+
+* [Security and Audits](security/security-and-audits.md)

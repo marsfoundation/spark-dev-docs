@@ -39,7 +39,6 @@
 * [Ethereum Addresses](deployment-addresses/ethereum-addresses.md)
 * [Gnosis Chain Addresses](deployment-addresses/gnosis-chain-addresses.md)
 * [Goerli Addresses](deployment-addresses/goerli-addresses.md)
-* [Security & Audits](deployment-addresses/security-and-audits.md)
 
 ## Security
 

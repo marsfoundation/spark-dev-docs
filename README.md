@@ -1,12 +1,15 @@
+---
+description: >-
+  This section of the documentation is intended for developers looking to learn
+  more about, build on top of or develop tooling for Spark. For more general
+  information, please go to Docs.
+---
+
 # Spark Developer Documentation
 
 ## **Welcome to Spark!**
 
 **Spark** is on a mission to empower the DAI ecosystem. As part of the MakerDAO community, Spark builds and manages DeFi infrastructure.
-
-
-
-This section of the documentation is intended for developers looking to learn more about, build on top of or develop tooling for Spark.
 
 
 

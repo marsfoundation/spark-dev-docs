@@ -1,6 +1,6 @@
 # Ethereum Addresses
 
-The Spark Protocol is available on Ethereum and Gnosis Chain.
+The SparkLend is available on Ethereum and Gnosis Chain.
 
 ## Ethereum Addresses
 

@@ -1,6 +1,6 @@
 # Gnosis Chain Addresses
 
-The Spark Protocol is available on Ethereum and Gnosis Chain.
+SparkLend is available on Ethereum and Gnosis Chain.
 
 {% hint style="warning" %}
 Gnosis Chain deployment is ongoing as of the time of writing (5th Oct), there's addresses missing, either denoted as 0x000 or not listed.

@@ -1,6 +1,6 @@
 # Security & Audits
 
-Spark Protocol upholds the highest standards of security, inheriting MakerDAO's security practices and partnering with projects that share the same values.
+Spark upholds the highest standards of security, inheriting MakerDAO's security practices and partnering with projects that share the same values.
 
 MakerDAO's security practices & audit reports. [Link to Maker's audits](https://security.makerdao.com/)
 

@@ -44,3 +44,7 @@
 ## Security
 
 * [Security and Audits](security/security-and-audits.md)
+
+## Spark Analytics
+
+* [🦜 SparkLend Analytics](spark-analytics/sparklend-analytics.md)

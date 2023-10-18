@@ -13,7 +13,7 @@ description: >-
 
 
 
-The 3 main DeFi infrastructure projects:
+### DeFi Infrastructure
 
 * **SparkLend**: The DAI centric money market protocol. Combining the best liquidity directly from Maker and vertically integrating with the best DeFi protocols.
 * **sDAI** is a yield bearing stablecoin, representing DAI in the Dai Savings Rate (DSR) module, which distributes revenue from the Maker protocol to DAI holders.

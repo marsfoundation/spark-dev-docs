@@ -1,6 +1,6 @@
 # Siloed Borrowing
 
-This feature allow assets with potentially manipulatable oracles (for example illiquid Uni V3 pairs) to be listed on Spark Protocol as single borrow asset i.e. if user borrows siloed asset, they cannot borrow any other asset. This helps mitigating the risk associated with such assets from impacting the overall solvency of the protocol.
+This feature allow assets with potentially manipulatable oracles (for example illiquid Uni V3 pairs) to be listed on SparkLend as single borrow asset i.e. if user borrows siloed asset, they cannot borrow any other asset. This helps mitigating the risk associated with such assets from impacting the overall solvency of the protocol.
 
 {% hint style="info" %}
 [Risk or Pool admin](../contracts/core-contracts/aclmanager.md#roles), selected by Maker Governance, can call [`setSiloedBorrowing`](../contracts/core-contracts/poolconfigurator.md#setsiloedborrowing) to set an asset in _Siloed Borrowing_ mode.
@@ -46,7 +46,3 @@ User automatically enters siloed borrowing state on their first successful borro
 #### How does user exit siloed borrowing state?
 
 User must repay all their debt to exist siloed borrowing state.
-
-#### Is any asset currently siloed in Spark Protocol market?
-
-Currently there is no asset marked siloed in any of the Spark Protocol markets. Risk or Pool admins can set already listed assets as siloed if needed as per market conditions. This feature can be used for new asset listing which may have higher risk.

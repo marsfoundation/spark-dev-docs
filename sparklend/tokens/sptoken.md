@@ -2,7 +2,7 @@
 
 ## spToken
 
-spTokens are tokens minted and burnt upon _supply_ and _withdraw_ of assets to a Spark Protocol market, which denote the amount of crypto assets supplied and the yield earned on those assets. The spTokens’ value is pegged to the value of the corresponding supplied asset at a 1:1 ratio and can be safely stored, transferred or traded. All yield collected by the spTokens' reserves are distributed to spToken holders directly by continuously increasing their wallet balance.
+spTokens are tokens minted and burnt upon _supply_ and _withdraw_ of assets to a SparkLend market, which denote the amount of crypto assets supplied and the yield earned on those assets. The spTokens’ value is pegged to the value of the corresponding supplied asset at a 1:1 ratio and can be safely stored, transferred or traded. All yield collected by the spTokens' reserves are distributed to spToken holders directly by continuously increasing their wallet balance.
 
 ## EIP20 Methods
 
@@ -29,7 +29,7 @@ const token = new Contract(spTokenAddress, spToken.abi, provider);
 await token.nonces(user);
 ```
 
-## Spark Protocol View Methods
+## SparkLend View Methods
 
 ### scaledBalanceOf
 
@@ -79,7 +79,7 @@ Returns address of the underlying reserve asset.
 
 Returns address of the Maker Treasury, controlled by governance, receiving the fee on this _spToken._
 
-## Spark Protocol Write Methods
+## SparkLend Write Methods
 
 ### setIncentivesController
 

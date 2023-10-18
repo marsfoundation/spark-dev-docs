@@ -10,7 +10,7 @@ The WETH Gateway contract is a helper to easily wrap and unwrap ETH (or native c
 
 **`function depositETH(address pool, address onBehalfOf, uint16 referralCode)`**
 
-Supplies the `msg.value` amount of ETH (or native chain token) into the Spark Protocol pool, minting the same amount of corresponding aWETH and transferring them to the `onBehalfOf` address.
+Supplies the `msg.value` amount of ETH (or native chain token) into the SparkLend pool, minting the same amount of corresponding aWETH and transferring them to the `onBehalfOf` address.
 
 {% hint style="info" %}
 Ensure that the `depositETH()` transaction also includes the amount of ETH you are supplying in the `msg.value`.

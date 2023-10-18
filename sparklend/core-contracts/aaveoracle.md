@@ -4,7 +4,7 @@
 
 Contract to get asset prices, manage price sources and update the fallback oracle.
 
-Spark Protocol uses Chainlink Aggregators as the source of all asset prices.
+SparkLend uses Chainlink Aggregators as the source of all asset prices.
 
 {% hint style="warning" %}
 In the future we will have redundancy with multiple oracle providers.
@@ -18,7 +18,7 @@ In the future we will have redundancy with multiple oracle providers.
 
 `function getAssetPrice(address asset)`
 
-Returns the price of the supported `asset` in `BASE_CURRENCY` of the Spark Protocol Market in wei.
+Returns the price of the supported `asset` in `BASE_CURRENCY` of SparkLend Market in wei.
 
 Return Value
 

@@ -2,9 +2,9 @@
 
 ## UiIncentiveDataProviderV3
 
-Contract that returns an array of all reserve incentives or user claimable rewards within a particular market, used by the [Spark Protocol Interface](https://github.com/marsfoundation/spark-interface/) to display incentives data.
+Contract that returns an array of all reserve incentives or user claimable rewards within a particular market, used by the [SparkLend Interface](https://github.com/marsfoundation/spark-interface/) to display incentives data.
 
-The [Spark Protocol Utilities SDK](https://github.com/marsfoundation/spark-utilities#data-formatting-methods) includes an interface to make calls to this contract, and functions to format the response for frontend use-cases.
+The [SparkLend Utilities SDK](https://github.com/marsfoundation/spark-utilities#data-formatting-methods) includes an interface to make calls to this contract, and functions to format the response for frontend use-cases.
 
 ## Data Structures
 
@@ -13,9 +13,9 @@ The [Spark Protocol Utilities SDK](https://github.com/marsfoundation/spark-utili
 | Name            | Type          | Description                                                                                                         |
 | --------------- | ------------- | ------------------------------------------------------------------------------------------------------------------- |
 | underlyingAsset | address       | Address of the asset supplied/borrowed in Pool                                                                      |
-| aIncentiveData  | IncentiveData | Details of rewards distributed for supplying to Spark Protocol Pool i.e. rewards for spToken holders.               |
-| vIncentiveData  | IncentiveData | Details of rewards distributed for variable debt borrowed from Spark Protocol Pool i.e. rewards for vToken holders. |
-| sIncentiveData  | IncentiveData | Details of rewards distributed for stable debt borrowed from Spark Protocol Pool i.e. rewards for sToken holders.   |
+| aIncentiveData  | IncentiveData | Details of rewards distributed for supplying to SparkLend Pool i.e. rewards for spToken holders.               |
+| vIncentiveData  | IncentiveData | Details of rewards distributed for variable debt borrowed from SparkLend Pool i.e. rewards for vToken holders. |
+| sIncentiveData  | IncentiveData | Details of rewards distributed for stable debt borrowed from SparkLend Pool i.e. rewards for sToken holders.   |
 
 #### IncentiveData
 
@@ -46,9 +46,9 @@ The [Spark Protocol Utilities SDK](https://github.com/marsfoundation/spark-utili
 | Name                      | Type              | Description                                                                                                       |
 | ------------------------- | ----------------- | ----------------------------------------------------------------------------------------------------------------- |
 | underlyingAsset           | address           | Address of the asset supplied/borrowed in Pool                                                                    |
-| spTokenIncentivesUserData | UserIncentiveData | Details of user rewards received for supplying to Spark Protocol Pool i.e. rewards for spToken.                   |
-| vTokenIncentivesUserData  | UserIncentiveData | Details of user rewards received for borrowing at variable rate from Spark Protocol Pool i.e. rewards for vToken. |
-| sTokenIncentivesUserData  | UserIncentiveData | Details of user rewards received for borrowing at stable rate from Spark Protocol Pool i.e. rewards for sToken.   |
+| spTokenIncentivesUserData | UserIncentiveData | Details of user rewards received for supplying to SparkLend Pool i.e. rewards for spToken.                   |
+| vTokenIncentivesUserData  | UserIncentiveData | Details of user rewards received for borrowing at variable rate from SparkLend Pool i.e. rewards for vToken. |
+| sTokenIncentivesUserData  | UserIncentiveData | Details of user rewards received for borrowing at stable rate from SparkLend Pool i.e. rewards for sToken.   |
 
 #### UserIncentiveData
 

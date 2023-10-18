@@ -14,7 +14,7 @@ The source code can be found on [Github](https://github.com/aave/aave-v3-core/bl
 
 `function getAddressesProvidersList()`
 
-Returns a list of active [`PoolAddressesProvider`](pooladdressesprovider.md) contracts for the registered Spark protocol markets.
+Returns a list of active [`PoolAddressesProvider`](pooladdressesprovider.md) contracts for the registered SparkLend markets.
 
 Returns Values
 

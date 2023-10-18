@@ -1,6 +1,6 @@
 # Repay With spTokens
 
-Allows user to repay with _spTokens_ in case the underlying borrowed asset is locked in the Spark Protocol liquidity pool.
+Allows user to repay with _spTokens_ in case the underlying borrowed asset is locked in the SparkLend liquidity pool.
 
 _Example:_ **User have stable DAI debt and also holds spDAI token**
 

@@ -66,7 +66,7 @@ const token = new Contract(spTokenAddres, spToken.abi, provider);
 await token.nonces(user);
 ```
 
-## Spark Protocol Specific Methods
+## SparkLend Specific Methods
 
 ### Shared View Methods
 

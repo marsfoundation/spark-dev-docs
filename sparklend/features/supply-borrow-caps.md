@@ -16,7 +16,7 @@ In case \*Borrow Cap\* of the reserve is set lower than the current \*totalDebt\
 
 ## **Supply Caps**
 
-Allow limiting how much of a certain asset is supplied to the Spark protocol. This helps reducing exposure to a certain asset and mitigate attacks like infinite minting or price oracle manipulation.
+Allow limiting how much of a certain asset is supplied to SparkLend. This helps reducing exposure to a certain asset and mitigate attacks like infinite minting or price oracle manipulation.
 
 By default supply cap of an asset is 0, which signifies no cap. Anyone who has been granted `RISK_ADMIN` or `POOL_ADMIN` role via the ACLManager can call [`setSupplyCap` method in PoolConfigurator](../contracts/core-contracts/poolconfigurator.md#write-methods) to update the liquidity supply for the given reserve.
 

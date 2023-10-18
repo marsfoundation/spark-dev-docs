@@ -2,9 +2,9 @@
 
 ## UiPoolDataProviderV3
 
-Contract that returns an array of all reserve or user data for a particular market, used by the [Spark Protocol Interface](https://github.com/marsfoundation/spark-interface) to display Markets and Dashboard data.
+Contract that returns an array of all reserve or user data for a particular market, used by the [SparkLend Interface](https://github.com/marsfoundation/spark-interface) to display Markets and Dashboard data.
 
-The [Spark Protocol Utilities SDK](https://github.com/marsfoundation/spark-utilities#data-formatting-methods) includes an interface to make calls to this contract, and functions to format the response for frontend use-cases.
+The [SparkLend Utilities SDK](https://github.com/marsfoundation/spark-utilities#data-formatting-methods) includes an interface to make calls to this contract, and functions to format the response for frontend use-cases.
 
 ## Data Structures
 
@@ -26,11 +26,11 @@ View fields of `AggregatedReserveData` defined at [Github](https://github.com/aa
 
 ### BaseCurrencyInfo
 
-Info data struct for base currency of the Spark Protocol market.
+Info data struct for base currency of the SparkLend market.
 
 | Name                              | Type    | Description                                              |
 | --------------------------------- | ------- | -------------------------------------------------------- |
-| marketReferenceCurrencyUnit       | uint256 | Reference aka base currency of the Spark Protocol market |
+| marketReferenceCurrencyUnit       | uint256 | Reference aka base currency of the SparkLend market |
 | marketReferenceCurrencyPriceInUsd | int256  | Price of reference aka base currency in USD              |
 | networkBaseTokenPriceInUsd        | int256  | Price of native token of the network/chain in USD        |
 | networkBaseTokenPriceDecimals     | uint8   | Decimals of native token of the network/chain            |

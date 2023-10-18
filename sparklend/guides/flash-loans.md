@@ -10,7 +10,7 @@ Flash Loans are an advanced concept aimed at developers. You **must** have a goo
 
 Flash-loan allows users to access liquidity of the pool (only for reserves for which borrow is enabled) for one transaction as long as the amount taken plus fee is returned or (if allowed) debt position is opened by the end of the transaction.
 
-Spark Protocol offers two options for flash loans:
+SparkLend offers two options for flash loans:
 
 * [`flashLoan`](../core-contracts/pool.md#flashloan): Allows borrower to access liquidity of _**multiple reserves**_ in single _flashLoan_ transaction. The borrower also has an option to open stable or variabled rate debt position backed by supplied collateral or credit delegation in this case.\
   NOTE: _flash loan fee_ is waived for approved `flashBorrowers` (managed by [ACLManager](../core-contracts/aclmanager.md))
@@ -30,7 +30,7 @@ For developers, a helpful mental model to consider when developing your solution
 
 ### Applications of Flash Loans
 
-Spark Protocol Flash Loans are already used with Spark Protocol for liquidity swap feature. Other examples in the wild include:
+SparkLend Flash Loans are already used with SparkLend for liquidity swap feature. Other examples in the wild include:
 
 * Arbitrage between assets, without needing to have the principal amount to execute the arbitrage.
 * Liquidating borrow positions, without having to repay the debt of the positions and using discounted collateral claimed to payoff flashLoan amount + fee.

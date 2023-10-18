@@ -1,7 +1,7 @@
 # RewardsController
 
 ## RewardsController
-All rewards type enabled in Spark Protocol are managed by [RewardsDistributor.sol](https://github.com/aave/aave-v3-periphery/blob/master/contracts/rewards/RewardsDistributor.sol). This is the contract used to check rewards data, user’s rewards balance and for claiming the rewards.
+All rewards type enabled in SparkLend are managed by [RewardsDistributor.sol](https://github.com/aave/aave-v3-periphery/blob/master/contracts/rewards/RewardsDistributor.sol). This is the contract used to check rewards data, user’s rewards balance and for claiming the rewards.
 
 ## Structs
 

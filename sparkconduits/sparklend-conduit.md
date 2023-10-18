@@ -1,4 +1,4 @@
-# Spark Conduit ⚡
+# ⚡ SparkLend Conduit
 
 {% embed url="https://github.com/marsfoundation/spark-conduits" %}
 

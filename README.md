@@ -5,7 +5,7 @@ description: >-
   information, please go to Docs.
 ---
 
-# Spark Developer Documentation
+# 🏠 Spark Developer Documentation
 
 ## **Welcome to Spark!**
 

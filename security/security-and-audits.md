@@ -1,4 +1,4 @@
-# Security and Audits
+# 🔐 Security and Audits
 
 Spark upholds the highest standards of security, inheriting MakerDAO's security practices and partnering with projects that share the same values.
 

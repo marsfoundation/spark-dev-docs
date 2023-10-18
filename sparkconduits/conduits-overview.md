@@ -1,9 +1,9 @@
-# Conduits Overview
+# 🚇 Conduits Overview
 
 {% hint style="info" %}
 It is recommend to have a working understanding of the following topics:
 
-**Maker Allocation System** \
+**Maker Allocation System**\
 **subDAOs**
 {% endhint %}
 
@@ -18,8 +18,6 @@ Conduits provide a standardized way for Maker subDAOs to provide said liquidity 
 While DAI is the main asset used within conduits, any asset can be used within them. The Maker Allocation System includes swapping functionality.
 
 A single conduit gives access to all subDAOs to the same protocol, allowing for competition and specialization from the subDAOs, and optionality for the protocol.
-
-
 
 The main benefits of Conduits include,
 
@@ -40,8 +38,6 @@ The ALM framework defines the logic within the constraints set by [**The Stabili
 The subDAO can deposit DAI in the conduit by calling `deposit()`
 
 The subDAO can withdraw DAI from the conduit by calling `withdraw()`
-
-
 
 ### **Integrating Maker liquidity as a Protocol**
 
@@ -80,9 +76,7 @@ The most important thing for a Conduit is that their interface allows for two ma
 
 [https://github.com/makerdao/dss-allocator](https://github.com/makerdao/dss-allocator)
 
-
-
-The main interface:&#x20;
+The main interface:
 
 ### Reference implementations
 

@@ -1,4 +1,4 @@
-# sDAI token
+# 💸 sDAI token
 
 {% hint style="info" %}
 sDAI does not emit a **`Transfer`** event during minting/burning, instead it emits the **`Deposit`**/**`Withdraw`** event which contains more information.

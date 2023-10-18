@@ -1,2 +1,2 @@
-# Gnosis Chain Addresses
+# 🔹 Gnosis Chain Addresses
 

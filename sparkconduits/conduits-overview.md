@@ -126,10 +126,10 @@ A set of functions are privileged based on the assigned **`role`** of the user:
 * Deposit (ilk, asset, source, amount)
 * Withdraw (ilk, asset, destination, amount)
 
-| variable    | data type | example                       |
-| ----------- | --------- | ----------------------------- |
-| ilk         | bytes32   | 0x53554244414f2d31 (SUBDAO-1) |
-| asset       | address   |                               |
-| source      | address   |                               |
-| destination | address   |                               |
-| amount      | uint256   |                               |
+| variable    | data type |
+| ----------- | --------- |
+| ilk         | bytes32   |
+| asset       | address   |
+| source      | address   |
+| destination | address   |
+| amount      | uint256   |

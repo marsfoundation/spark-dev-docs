@@ -1,6 +1,4 @@
-# Technical Docs
-
-
+# sDAI token
 
 {% hint style="info" %}
 sDAI does not emit a **`Transfer`** event during minting/burning, instead it emits the **`Deposit`**/**`Withdraw`** event which contains more information.
@@ -11,7 +9,7 @@ Currently, most dapps only look for **`Transfer`** events from the null address 
 * Contract Name: SavingsDai.sol
 * Type/Category: DSR
 * Contract Source: [sDAI code repository](https://github.com/makerdao/sdai)
-* Contract Address: [0x83f20f44975d03b1b09e64809b757c47f942beea](https://etherscan.io/address/0x83f20f44975d03b1b09e64809b757c47f942beea)
+* Ethereum Contract Address: [0x83f20f44975d03b1b09e64809b757c47f942beea](https://etherscan.io/address/0x83f20f44975d03b1b09e64809b757c47f942beea)
 
 ## 1. Introduction (Summary)
 

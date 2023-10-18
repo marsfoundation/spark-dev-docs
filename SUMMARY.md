@@ -27,7 +27,7 @@
 
 ## 💸 sDAI
 
-* [Technical Docs](sdai/technical-docs.md)
+* [sDAI token](sdai/technical-docs.md)
 
 ## 🚇 Conduits
 

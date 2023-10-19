@@ -1,4 +1,4 @@
-# Gnosis Chain Addresses
+# 🔹 Gnosis Chain Addresses
 
 SparkLend is available on Ethereum and Gnosis Chain.
 
@@ -79,61 +79,38 @@ Gnosis Chain deployment is ongoing as of the time of writing (5th Oct), there's 
 | stableDebtTokenImpl   | 0x4370D3b6C9588E02ce9D22e684387859c7Ff5b34 |
 | variableDebtTokenImpl | 0x0ee554F6A1f7a4Cb4f82D4C124DdC2AD3E37fde1 |
 
-**DAI**
+**WXDAI**
 
-| name                      | address                                    |
-| ------------------------- | ------------------------------------------ |
-| DAI\_oracle               | 0x0000000000000000000000000000000000000000 |
-| DAI\_token                | 0x0000000000000000000000000000000000000000 |
-| DAI\_aToken               | 0x0000000000000000000000000000000000000000 |
-| DAI\_stableDebtToken      | 0x0000000000000000000000000000000000000000 |
-| DAI\_variableDebtToken    | 0x0000000000000000000000000000000000000000 |
-| DAI\_interestRateStrategy | 0x0000000000000000000000000000000000000000 |
-
-**sDAI**
-
-| name                       | address                                    |
-| -------------------------- | ------------------------------------------ |
-| sDAI\_stableDebtToken      | 0x0000000000000000000000000000000000000000 |
-| sDAI\_token                | 0x0000000000000000000000000000000000000000 |
-| sDAI\_oracle               | 0x0000000000000000000000000000000000000000 |
-| sDAI\_variableDebtToken    | 0x0000000000000000000000000000000000000000 |
-| sDAI\_interestRateStrategy | 0x0000000000000000000000000000000000000000 |
+| name                        | address                                    |
+| --------------------------- | ------------------------------------------ |
+| WXDAI\_oracle               | 0x678df3415fc31947dA4324eC63212874be5a82f8 |
+| WXDAI\_token                | 0xe91D153E0b41518A2Ce8Dd3D7944Fa863463a97d |
+| WXDAI\_aToken               | 0xC9Fe2D32E96Bb364c7d29f3663ed3b27E30767bB |
+| WxDAI\_stableDebtToken      | 0x0000000000000000000000000000000000000000 |
+| WXDAI\_variableDebtToken    | 0x868ADfDf12A86422524EaB6978beAE08A0008F37 |
+| WXDAI\_interestRateStrategy | 0x8b0271080D53f759eCc607f13316bDB3B86449e2 |
 
 **WETH**
 
 | name                       | address                                    |
 | -------------------------- | ------------------------------------------ |
-| WETH\_aToken               | 0x0000000000000000000000000000000000000000 |
-| WETH\_interestRateStrategy | 0x0000000000000000000000000000000000000000 |
-| WETH\_oracle               | 0x0000000000000000000000000000000000000000 |
+| WETH\_aToken               | 0x629D562E92fED431122e865Cc650Bc6bdE6B96b0 |
+| WETH\_interestRateStrategy | 0x0318C53Bd3953c0fd1E8e8F9A68005002eD442D2 |
+| WETH\_oracle               | 0xa767f745331D267c7751297D982b050c93985627 |
 | WETH\_stableDebtToken      | 0x0000000000000000000000000000000000000000 |
-| WETH\_token                | 0x0000000000000000000000000000000000000000 |
-| WETH\_variableDebtToken    | 0x0000000000000000000000000000000000000000 |
-| wethGateway                | 0x0000000000000000000000000000000000000000 |
+| WETH\_token                | 0x6A023CCd1ff6F2045C3309768eAd9E68F978f6e1 |
+| WETH\_variableDebtToken    | 0x0aD6cCf9a2e81d4d48aB7db791e9da492967eb84 |
 
 **wstETH**
 
 | name                         | address                                    |
 | ---------------------------- | ------------------------------------------ |
-| wstETH\_aToken               | 0x0000000000000000000000000000000000000000 |
-| wstETH\_interestRateStrategy | 0x0000000000000000000000000000000000000000 |
-| wstETH\_oracle               | 0x0000000000000000000000000000000000000000 |
+| wstETH\_aToken               | 0x9Ee4271E17E3a427678344fd2eE64663Cb78B4be |
+| wstETH\_interestRateStrategy | 0x27c74895F0f49177cc4450Bf017281E556751a1a |
+| wstETH\_oracle               | 0xae27e63307963850c4d30BFba78FC1116d7b48C3 |
 | wstETH\_stableDebtToken      | 0x0000000000000000000000000000000000000000 |
-| wstETH\_token                | 0x0000000000000000000000000000000000000000 |
-| wstETH\_variableDebtToken    | 0x0000000000000000000000000000000000000000 |
-
-**USDC**
-
-| name                       | address                                    |
-| -------------------------- | ------------------------------------------ |
-| USDC\_aToken               | 0x0000000000000000000000000000000000000000 |
-| USDC\_interestRateStrategy | 0x0000000000000000000000000000000000000000 |
-| USDC\_oracle               | 0x0000000000000000000000000000000000000000 |
-| USDC\_stableDebtToken      | 0x0000000000000000000000000000000000000000 |
-| USDC\_token                | 0x0000000000000000000000000000000000000000 |
-| USDC\_variableDebtToken    | 0x0000000000000000000000000000000000000000 |
-
+| wstETH\_token                | 0x6C76971f98945AE98dD7d4DFcA8711ebea946eA6 |
+| wstETH\_variableDebtToken    | 0x3294dA2E28b29D1c08D556e2B86879d221256d31 |
 {% endtab %}
 
 {% tab title="Configuration & Pool Logic" %}

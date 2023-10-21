@@ -7,8 +7,7 @@
 ## Test Markets
 
 {% hint style="warning" %}
-Goerli testnet is no longer supported.
-As of October 4th, new changes are not reflected Goerli, run a local fork of mainnet instead.
+Goerli testnet is no longer supported. As of October 4th, new changes are not reflected Goerli, run a local fork of mainnet instead.
 {% endhint %}
 
 The simplest way to interact with SparkLend in a test environment is to connect your wallet and use the app with fauceted funds on a test network. All test markets can be accessed from the [app](https://app.spark.fi) or from cloning/forking the [SparkLend frontend](https://github.com/marsfoundation/spark-interface).
@@ -49,7 +48,7 @@ Tenderly is a tool for interacting and debugging smart contracts in a browser in
 
 To run simulations you will need two things, a contract address and contract abi.
 
-The contract addresses for each official and testnet market of the SparkLend can be found [here](../../deployment-addresses).
+The contract addresses for each official and testnet market of the SparkLend can be found [here](../../deployment-addresses/).
 
 The abi for each contract can obtained from a block explorer or compiling contract code directly.
 

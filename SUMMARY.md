@@ -28,11 +28,11 @@
   * [Isolation Mode](sparklend/features/isolation-mode.md)
   * [Repay with spTokens](sparklend/features/repay-with-sptokens.md)
   * [Supply & Borrow caps](sparklend/features/supply-borrow-caps.md)
-  * [Credit Delegation](sparklend/features/credit-delegation.md)
-  * [Flash Loans](sparklend/features/flash-loans.md)
-  * [Liquidations](sparklend/features/liquidations.md)
-  * [Testing Guide](sparklend/features/testing-guide.md)
-  * [Troubleshooting](sparklend/features/troubleshooting-errors.md)
+  * [Credit Delegation](sparklend/guides/credit-delegation.md)
+  * [Flash Loans](sparklend/guides/flash-loans.md)
+  * [Liquidations](sparklend/guides/liquidations.md)
+  * [Testing Guide](sparklend/guides/testing-guide.md)
+  * [Troubleshooting](sparklend/guides/troubleshooting-errors.md)
 
 ## sDAI
 
@@ -45,9 +45,9 @@
 
 ## Deployment Addresses
 
-* [💎 Ethereum Addresses](deployment-addresses/ethereum-addresses.md)
-* [🦉 Gnosis Chain Addresses](deployment-addresses/gnosis-addresses.md)
-* [🔹 Goerli Addresses](deployment-addresses/goerli-addresses.md)
+* [💎 Ethereum](deployment-addresses/ethereum-addresses.md)
+* [🦉 Gnosis Chain](deployment-addresses/gnosis-addresses.md)
+* [🔹 Goerli](deployment-addresses/goerli-addresses.md)
 
 ## Security
 

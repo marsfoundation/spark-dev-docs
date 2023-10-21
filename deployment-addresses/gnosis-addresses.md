@@ -1,10 +1,6 @@
-# 🦉 Gnosis Chain Addresses
+# 🦉 Gnosis Chain
 
-SparkLend is available on Ethereum and Gnosis Chain.
-
-{% hint style="warning" %}
-Gnosis Chain deployment is ongoing as of the time of writing (5th Oct), there's addresses missing, either denoted as 0x000 or not listed.
-{% endhint %}
+SparkLend is available on [Ethereum](ethereum-addresses.md) and [Gnosis Chain](gnosis-addresses.md#gnosis-chain-addresses).
 
 ## Gnosis Chain Addresses
 

@@ -1,6 +1,7 @@
 # Table of contents
 
 * [🏠 Spark Developer Documentation](README.md)
+* [👾 Github](https://github.com/marsfoundation)
 
 ## SparkLend
 
@@ -43,16 +44,16 @@
 * [🚇 Conduits Overview](sparkconduits/conduits-overview.md)
 * [⚡ SparkLend Conduit](sparkconduits/sparklend-conduit.md)
 
-## Deployment Addresses
+## Spark Analytics
 
-* [💎 Ethereum](deployment-addresses/ethereum-addresses.md)
-* [🦉 Gnosis Chain](deployment-addresses/gnosis-addresses.md)
-* [🔹 Goerli](deployment-addresses/goerli-addresses.md)
+* [🦜 SparkLend Analytics](spark-analytics/sparklend-analytics.md)
 
 ## Security
 
 * [🔐 Security and Audits](security/security-and-audits.md)
 
-## Spark Analytics
+## Deployment Addresses
 
-* [🦜 SparkLend Analytics](spark-analytics/sparklend-analytics.md)
+* [💎 Ethereum](deployment-addresses/ethereum-addresses.md)
+* [🦉 Gnosis Chain](deployment-addresses/gnosis-addresses.md)
+* [🔹 Goerli](deployment-addresses/goerli-addresses.md)

@@ -1,4 +1,4 @@
-# 🔹 Gnosis Chain Addresses
+# 🦉 Gnosis Chain Addresses
 
 SparkLend is available on Ethereum and Gnosis Chain.
 

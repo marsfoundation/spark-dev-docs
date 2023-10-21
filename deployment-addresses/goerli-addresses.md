@@ -1,10 +1,9 @@
-# Testnet Addresses
+# 🔹 Goerli Addresses
 
 SparkLend is available on Ethereum Goerli testnet.
 
 {% hint style="warning" %}
-Goerli testnet is no longer supported.
-As of October 4th, new changes are not reflected Goerli, run a local fork of mainnet instead.
+Goerli testnet is no longer supported. As of October 4th, new changes are not reflected Goerli, run a local fork of mainnet instead.
 {% endhint %}
 
 {% tabs %}

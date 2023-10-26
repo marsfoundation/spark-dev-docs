@@ -66,7 +66,7 @@ To call either of the two flash loan methods on the Pool, we need to pass in the
 2.  **From a different contract**
 
     Similar to sending a transaction from an EOA as above, ensure the `receiverAddress` is your contract address from [step 1](flash-loans.md#1.-setting-up).\\
-3.  **From the **_**same**_** contract**
+3.  **From the \_same**\_\*\* contract\*\*
 
     If you want to use the same contract as in step 1, use `address(this)` for the `receiverAddress` parameter in the flash loan method.
 

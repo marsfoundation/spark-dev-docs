@@ -5,6 +5,10 @@ Debt tokens are interest-accruing tokens that are minted and burned on `borrow` 
 * _**Stable Debt Tokens**_**:** represent a debt to the protocol with stable interest rate.
 * _**Variable Debt Tokens**_**:** represent a debt to the protocol with variable interest rate.
 
+{% hint style="danger" %}
+Stable Debt Tokens are not currently being used in SparkLend, they are a legacy piece of technology that will be fully deprecated at some point in the future.
+{% endhint %}
+
 {% hint style="info" %}
 Debt tokens are not transferable.
 {% endhint %}

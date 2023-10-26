@@ -1,11 +1,8 @@
----
-description: >-
-  This section of the documentation is intended for developers looking to learn
-  more about, build on top of or develop tooling for Spark. For more general
-  information, please go to Docs.
----
-
 # 🏠 Spark Developer Documentation
+
+{% hint style="info" %}
+This section of the documentation is intended for developers looking to learn more about, build on top of, or develop tooling for Spark. For more general information, please go to [Docs](http://127.0.0.1:5000/o/HdgfPReNaJoFbN7B3nr5/s/jvdfbhgN5UCpMtP1l8r5/).
+{% endhint %}
 
 ## **Welcome to Spark!**
 

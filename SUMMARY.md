@@ -1,6 +1,7 @@
 # Table of contents
 
 * [🏠 Spark Developer Documentation](README.md)
+* [👾 Github](https://github.com/marsfoundation)
 
 ## SparkLend
 
@@ -23,38 +24,36 @@
   * [spToken](sparklend/tokens/sptoken.md)
   * [DebtToken](sparklend/tokens/debttoken.md)
   * [DelegationAwareSpToken](sparklend/tokens/delegationawaresptoken.md)
-* [Features](sparklend/features/README.md)
+* [👒 Guides](sparklend/features/README.md)
   * [Efficiency Mode](sparklend/features/efficiency-mode-emode.md)
   * [Isolation Mode](sparklend/features/isolation-mode.md)
   * [Repay with spTokens](sparklend/features/repay-with-sptokens.md)
   * [Supply & Borrow caps](sparklend/features/supply-borrow-caps.md)
-* [Guides](sparklend/guides/README.md)
   * [Credit Delegation](sparklend/guides/credit-delegation.md)
   * [Flash Loans](sparklend/guides/flash-loans.md)
   * [Liquidations](sparklend/guides/liquidations.md)
   * [Testing Guide](sparklend/guides/testing-guide.md)
   * [Troubleshooting](sparklend/guides/troubleshooting-errors.md)
 
-
 ## sDAI
 
 * [💸 sDAI token](sdai/technical-docs.md)
 
-## Conduits
+## SparkConduits
 
 * [🚇 Conduits Overview](sparkconduits/conduits-overview.md)
 * [⚡ SparkLend Conduit](sparkconduits/sparklend-conduit.md)
 
-## Deployment Addresses
+## Spark Analytics
 
-* [💎 Ethereum Addresses](deployment-addresses/ethereum-addresses.md)
-* [🔹 Gnosis Chain Addresses](deployment-addresses/gnosis-addresses.md)
-* [🔹 Goerli Addresses](deployment-addresses/goerli-addresses.md)
+* [🦜 SparkLend Analytics](spark-analytics/sparklend-analytics.md)
 
 ## Security
 
 * [🔐 Security and Audits](security/security-and-audits.md)
 
-## Spark Analytics
+## Deployment Addresses
 
-* [🦜 SparkLend Analytics](spark-analytics/sparklend-analytics.md)
+* [💎 Ethereum](deployment-addresses/ethereum-addresses.md)
+* [🦉 Gnosis Chain](deployment-addresses/gnosis-addresses.md)
+* [🔹 Goerli](deployment-addresses/goerli-addresses.md)

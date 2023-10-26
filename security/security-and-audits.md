@@ -35,7 +35,7 @@ Maker activates the D3M in [this spell](https://etherscan.io/address/0x77107F74b
 
 ### August 20th, 2023 - Upgrade to Aave V3.0.2
 
-An [upgrade is performed](https://etherscan.io/address/0x60cc45dab5f0b17789c77d5fe990f1ad80e9dd65#code) from V3.0.1 to V3.0.2 to bring the code in line with the latest changes from the Aave codebase to patch a few minor issues.
+An [upgrade is performed](https://etherscan.io/address/0x60cc45dab5f0b17789c77d5fe990f1ad80e9dd65#code) from V3.0.1 to V3.0.2 to bring the code in line with the latest changes from the Aave codebase to patch a few minor issues. You can read about the changes in the [Aave upgrade post](https://app.aave.com/governance/proposal/213/) along with audits performed on the upgrade.
 
 ### October 19th, 2023 - USDC Market Enabled
 

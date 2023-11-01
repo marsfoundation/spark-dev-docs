@@ -50,6 +50,7 @@
 
 ## Security
 
+* [🐛 Bug Bounty Program](security/bug-bounty-program.md)
 * [🔐 Security and Audits](security/security-and-audits.md)
 
 ## Deployment Addresses

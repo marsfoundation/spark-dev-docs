@@ -1,6 +1,7 @@
 # Table of contents
 
 * [🏠 Spark Developer Documentation](README.md)
+* [Spark Documentation](https://docs.spark.fi/)
 * [👾 Github](https://github.com/marsfoundation)
 
 ## SparkLend

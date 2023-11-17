@@ -3,8 +3,6 @@
 * [🏠 Spark Developer Documentation](README.md)
 * [Spark Documentation](https://docs.spark.fi/)
 * [Hackathon: ETHGlobal Istanbul](hackathon-ethglobal-istanbul.md)
-* [Page](page/README.md)
-  * [MakerDAO Spark Protocol Ethereum Singapore Hacka 740cef9d248d44e0961167b76b499049](page/makerdao-spark-protocol-ethereum-singapore-hacka-740cef9d248d44e0961167b76b499049.md)
 * [👾 Github](https://github.com/marsfoundation)
 
 ## SparkLend

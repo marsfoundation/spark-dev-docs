@@ -1,8 +1,10 @@
 # Hackathon: ETHGlobal Istanbul
 
-Welcome to everyone!
+Welcome to everyone! Thank you for hacking with us :)
 
-[ETHGlobal dashboard](https://ethglobal.com/events/istanbul/prizes#spark)
+For most info, please go to the [ETHGlobal dashboard](https://ethglobal.com/events/istanbul/prizes#spark).
+
+If you have any questions or want to get feedback on your project please reach out to Tadeo at the booth or via Discord/Telegram at **@tadeongmi**.
 
 
 

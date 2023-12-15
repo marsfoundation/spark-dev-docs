@@ -15,7 +15,7 @@ For liquidation calls to be profitable, you must take into account the gas cost 
 
 {% hint style="success" %}
 SparkLend allows 100% of debt (i.e. `MAX_LIQUIDATION_CLOSE_FACTOR`) to be liquidated in single `liquidationCall()` if:\
-`HF < CLOSE_FACTOR_HF_THRESHOLD`
+`HF < CLOSE_FACTOR_HF_THRESHOLD = 0.95`
 {% endhint %}
 
 ## Prerequisites
@@ -24,8 +24,8 @@ When making a `liquidationCall()`, you must:
 
 * Know the account (i.e. the ethreum address: `user`) whose health factor is below 1.
 * Know the valid debt amount and asset (i.e. `debtToCover` & `debtAsset`)
-  * If the HF is above `CLOSE_FACTOR_HF_THRESHOLD`, then only a maximum of 50% (i.e. `DEFAULT_LIQUIDATION_CLOSE_FACTOR`) of the debt can be liquidated per valid `liquidationCall()`
-  * If the HF is below `CLOSE_FACTOR_HF_THRESHOLD`, then 100% (i.e. `MAX_LIQUIDATION_CLOSE_FACTOR`) of the debt can be liquidated in single valid `liquidationCall()`
+  * If the HF is above `CLOSE_FACTOR_HF_THRESHOLD = 0.95`, then only a maximum of 50% (i.e. `DEFAULT_LIQUIDATION_CLOSE_FACTOR`) of the debt can be liquidated per valid `liquidationCall()`
+  * If the HF is below `CLOSE_FACTOR_HF_THRESHOLD = 0.95`, then 100% (i.e. `MAX_LIQUIDATION_CLOSE_FACTOR`) of the debt can be liquidated in single valid `liquidationCall()`
   * You can set the `debtToCover` to `uint(-1)` and the protocol will proceed with the highest possible liquidation allowed by the close factor.
   * You must already have sufficient balance of the debt asset, which will be used by the `liquidationCall` to pay back the debt. You can use `flashLoan` for liquidations 😉
 * Know the collateral asset `collateralAsset` you closing, i.e. the asset that the user has `backing` their outstanding loan that you will receive as a `bonus`.
@@ -57,7 +57,7 @@ Messari subgraph: [The Graph Hosted Service](https://thegraph.com/hosted-service
 Once you have the account(s) to liquidate, you will need to calculate the amount of collateral that can be liquidated:
 
 1. Use [`getUserReserveData()`](../periphery-contracts/uipooldataproviderv3.md#getuserreservesdata)
-2. Max debt that be cleared by single liquidation call is given by the `DEFAULT_LIQUIDATION_CLOSE_FACTOR`(when `CLOSE_FACTOR_HF_THRESHOLD < HF < 1`) or `MAX_LIQUIDATION_CLOSE_FACTOR` (when `HF < CLOSE_FACTOR_HF_THRESHOLD`)
+2. Max debt that be cleared by single liquidation call is given by the `DEFAULT_LIQUIDATION_CLOSE_FACTOR`(when `CLOSE_FACTOR_HF_THRESHOLD = 0.95 < HF < 1`) or `MAX_LIQUIDATION_CLOSE_FACTOR` (when `HF < CLOSE_FACTOR_HF_THRESHOLD = 0.95`)
    1. `debtToCover = (userStableDebt + userVariableDebt) * LiquidationCloseFactor`
    2. You can pass `uint(-1)`, i.e. `MAX_UINT`, as the `debtToCover` to liquidate the maximum amount allowed.
 3. Max amount of collateral that can be liquidated to cover debt is given by the current _liquidationBonus_ for the reserves that have `usageAsCollateralEnabled` as true.

@@ -70,6 +70,8 @@ SparkLend is available on [Ethereum](ethereum-addresses.md) and [Gnosis Chain](g
 | wstETH\_stableDebtToken       | 0x9832D969a0c8662D98fFf334A4ba7FeE62b109C2 |
 | wstETH\_token                 | 0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0 |
 | wstETH\_variableDebtToken     | 0xd5c3E3B566a42A6110513Ac7670C1a86D76E13E6 |
+| SubProxy                      | 0x3300f198988e4C9C63F75dF86De36421f06af8c4 |
+| DSPauseProxy                  | 0xBE8E3e3618f7474F8cB1d074A26afFef007E98FB |
 {% endtab %}
 
 {% tab title="Assets" %}
@@ -186,5 +188,12 @@ SparkLend is available on [Ethereum](ethereum-addresses.md) and [Gnosis Chain](g
 | emissionManager      | 0xf09e48dd4CA8e76F63a57ADd428bB06fee7932a4 |
 | incentives           | 0x4370D3b6C9588E02ce9D22e684387859c7Ff5b34 |
 | incentivesImpl       | 0x0ee554F6A1f7a4Cb4f82D4C124DdC2AD3E37fde1 |
+{% endtab %}
+
+{% tab title="Governance" %}
+| name         | address                                    | comment                                                                  |
+| ------------ | ------------------------------------------ | ------------------------------------------------------------------------ |
+| SubProxy     | 0x3300f198988e4C9C63F75dF86De36421f06af8c4 | governance admin contract, currently controlled by the Maker Pause Proxy |
+| DSPauseProxy | 0xBE8E3e3618f7474F8cB1d074A26afFef007E98FB | Maker Pause Proxy                                                        |
 {% endtab %}
 {% endtabs %}

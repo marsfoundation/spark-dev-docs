@@ -2,7 +2,6 @@
 
 * [🏠 Spark Developer Documentation](README.md)
 * [Spark Documentation](https://docs.spark.fi/)
-* [Hackathon: ETHGlobal Istanbul](hackathon-ethglobal-istanbul.md)
 * [👾 Github](https://github.com/marsfoundation)
 
 ## SparkLend

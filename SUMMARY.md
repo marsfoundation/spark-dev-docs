@@ -15,7 +15,7 @@
   * [Pool](sparklend/core-contracts/pool.md)
   * [PoolConfigurator](sparklend/core-contracts/poolconfigurator.md)
   * [AaveOracle](sparklend/core-contracts/aaveoracle.md)
-* [🗞 Periphery Contracts](sparklend/periphery-contracts/README.md)
+* [🗞️ Periphery Contracts](sparklend/periphery-contracts/README.md)
   * [RewardsController](sparklend/periphery-contracts/rewardscontroller.md)
   * [UiIncentiveDataProviderV3](sparklend/periphery-contracts/uiincentivedataproviderv3.md)
   * [UiPoolDataProviderV3](sparklend/periphery-contracts/uipooldataproviderv3.md)

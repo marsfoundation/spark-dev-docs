@@ -66,7 +66,7 @@ SparkLend is available on [Ethereum](ethereum-addresses.md) and [Gnosis Chain](g
 | wethGateway                   | 0xBD7D6a9ad7865463DE44B05F04559f65e3B11704 |
 | wstETH\_aToken                | 0x12B54025C112Aa61fAce2CDB7118740875A566E9 |
 | wstETH\_interestRateStrategy  | 0x0D56700c90a690D8795D6C148aCD94b12932f4E3 |
-| wstETH\_oracle                | 0xA9F30e6ED4098e9439B2ac8aEA2d3fc26BcEbb45 |
+| wstETH\_oracle                | 0x8B6851156023f4f5A66F68BEA80851c3D905Ac93 |
 | wstETH\_stableDebtToken       | 0x9832D969a0c8662D98fFf334A4ba7FeE62b109C2 |
 | wstETH\_token                 | 0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0 |
 | wstETH\_variableDebtToken     | 0xd5c3E3B566a42A6110513Ac7670C1a86D76E13E6 |

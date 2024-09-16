@@ -48,6 +48,7 @@
 
 ## Spark Analytics
 
+* [SparkLend Analytics](https://spark.blockanalitica.com/)
 * [🦜 SparkLend Analytics](spark-analytics/sparklend-analytics.md)
 
 ## Security

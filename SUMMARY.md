@@ -37,9 +37,10 @@
   * [Testing Guide](sparklend/features/testing-guide.md)
   * [Troubleshooting](sparklend/features/troubleshooting-errors.md)
 
-## sDAI
+## Savings
 
-* [💸 sDAI token](sdai/technical-docs.md)
+* [💸 sUSDS Token](savings/technical-docs.md)
+* [💸 sDAI Token](savings/technical-docs-1.md)
 
 ## SparkConduits
 

@@ -39,8 +39,8 @@
 
 ## Savings
 
-* [💸 sUSDS Token](savings/technical-docs.md)
-* [💸 sDAI Token](savings/technical-docs-1.md)
+* [sUSDS Token](savings/susds-token.md)
+* [sDAI Token](savings/technical-docs.md)
 
 ## SparkConduits
 

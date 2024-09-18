@@ -4,9 +4,9 @@
 
 ## Overview
 
-The SparkLend Conduit is a conduit contract designed to be used within the Maker Allocation System. It implements the IAllocatorConduit interface, so it will be able to work within the constraints on the Allocation System design. There is one contract in this repo:
+The SparkLend Conduit is a conduit contract designed to be used within the Sky Allocation System. It implements the IAllocatorConduit interface, so it will be able to work within the constraints on the Allocation System design. There is one contract in this repo:
 
-`SparkLendConduit`: Facilitates the movement of funds between the Maker Allocation System and the SparkLend instance.
+`SparkLendConduit`: Facilitates the movement of funds between the Sky Allocation System and the SparkLend instance.
 
 {% hint style="info" %}
 ℹ️ In later iterations of this code's development, it is expected for other SparkLend Conduits to be developed to support multichain deployments.

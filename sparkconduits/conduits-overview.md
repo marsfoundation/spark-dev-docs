@@ -1,21 +1,18 @@
+---
+hidden: true
+---
+
 # Conduits Overview
-
-{% hint style="info" %}
-It is recommend to have a working understanding of the following topics:
-
-**Maker Allocation System**\
-**subDAOs**
-{% endhint %}
 
 Liquidity is one of the main challenges for a protocol. Some only work as intended once they’ve reached a high level of sustained liquidity and most rip the benefits of economies of scale once that is achieved.
 
-Maker has grown DAI to become the largest decentralised stablecoin, behind only to the fiat backed USDC and USDT, stabilising it with different mechanisms that have proven long term viability.
+Sky has grown DAI to become the largest decentralized stablecoin, behind only to the fiat backed USDC and USDT, stabilising it with different mechanisms that have proven long term viability.
 
-Through the Maker Allocation System, subDAOs provide liquidity directly to protocols. Having Maker as the ultimate Liquidity Provider (LP) allows protocols to benefit from predictable and sustained liquidity at scale.
+Through the Sky Allocation System, Sky Stars provide liquidity directly to protocols. Having Sky as a liquidity provider (LP) allows protocols to benefit from predictable and sustained liquidity at scale.
 
-Conduits provide a standardized way for Maker subDAOs to provide said liquidity to protocols, managing the movement of funds between them. You can think of them as deposit boxes for assets where each entity interacts with it in predefined ways.
+Conduits provide a standardized way for Sky Stars to provide liquidity to protocols, managing the movement of funds between them. You can think of them as deposit boxes for assets where each entity interacts with it in predefined ways.
 
-While DAI is the main asset used within conduits, any asset can be used within them. The Maker Allocation System includes swapping functionality.
+While DAI is the main asset used within conduits, any asset can be used within them. The Sky Allocation System includes swapping functionality.
 
 A single conduit gives access to all subDAOs to the same protocol, allowing for competition and specialization from the subDAOs, and optionality for the protocol.
 
@@ -23,25 +20,25 @@ The main benefits of Conduits include,
 
 * Security: common design patterns, limited scoped modules, circuit-breakers
 * Flexibility: build on top of existing logic, add custom logic and/or technology
-* Safety: Maker Governance has admin power over the entire Maker Allocation System
+* Safety: Sky Governance has admin power over the entire Sky Allocation System
 
-### **Providing Liquidity as a subDAO**
+### **Providing Liquidity as a Sky Star**
 
-Under the Maker Endgame model, subDAOs allocate capital to the best yielding investment opportunities, managing risk effectively in the face of competition for the highest return.
+Under the Sky Endgame model, Sky Stars allocate capital to the best yielding investment opportunities, managing risk effectively in the face of competition for the highest return.
 
-All subDAOs have equal access to yield based opportunities, based on an Asset & Liability Management (ALM) framework, subDAOs make the decision to provide liquidity to the target protocols.
+All Sky Stars have equal access to yield based opportunities, based on an Asset & Liability Management (ALM) framework, Sky Stars make the decision to provide liquidity to the target protocols.
 
 The ALM framework defines the logic within the constraints set by [**The Stability and Liquidity Scope Framework (MIP103)**](https://forum.makerdao.com/t/mip103-the-stability-and-liquidity-scope-framework/19675), supported by the the ALM Capitalization Requirements defined in MIP102 regarding collateral asset types based on the conversion delay and slippage tolerance.
 
-**subDAO User Experience with Conduits**
+**Sky Star User Experience with Conduits**
 
-The subDAO can deposit DAI in the conduit by calling `deposit()`
+The Sky Star can deposit DAI in the conduit by calling `deposit()`
 
-The subDAO can withdraw DAI from the conduit by calling `withdraw()`
+The Sky Star can withdraw DAI from the conduit by calling `withdraw()`
 
-### **Integrating Maker liquidity as a Protocol**
+### **Integrating Sky liquidity as a protocol**
 
-Conduits and the Maker Allocation System provide an unprecedented opportunity to acquire best in class liquidity for DeFi protocols.
+Conduits and the Sky Allocation System provide an unprecedented opportunity to acquire best in class liquidity for DeFi protocols.
 
 Protocols need to ensure that the conduits are built and audited, and provide a sound business case for a subDAO to initiate the assessment of the entire protocol.
 

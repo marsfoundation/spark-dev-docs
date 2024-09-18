@@ -12,26 +12,31 @@ layout:
     visible: true
 ---
 
-# 🏠 Spark Developer Documentation
-
-## **Welcome to Spark!**
-
-The next-gen DeFi infrastructure for DAI
-
-**Spark** is on a mission to empower the DAI ecosystem. As part of the MakerDAO community.
+# Spark Developer Documentation
 
 {% hint style="info" %}
 This section of the documentation is intended for developers looking to learn more about, build on top of, or develop tooling for Spark. For more general information, please go to [Docs](https://app.gitbook.com/o/HdgfPReNaJoFbN7B3nr5/s/jvdfbhgN5UCpMtP1l8r5/).
 {% endhint %}
 
-### DeFi Infrastructure
+The Spark Developer portal is your resource for all developer documentation relating to Spark. Here you will find smart contract documentation, in-depth concepts and explanations, code audits and security processes.
 
-* **SparkLend**: The DAI centric money market protocol. Combining the best liquidity directly from Maker and vertically integrating with the best DeFi protocols.
-* **sDAI** is a yield bearing stablecoin, representing DAI in the Dai Savings Rate (DSR) module, which distributes revenue from the Maker protocol to DAI holders.
-* **SparkConduits** allow for direct liquidity from Maker to protocols as part of the overall Maker Allocation System.
+### Spark Products
 
-**SparkDAO** is a Maker Allocator subDAO that owns and manages Spark through decentralised governance. Its launch, alongside the other subDAOs, is scheduled for May 2024.
+**Spark** is on a mission to empower the USDS ecosystem, as part of the [Sky Ecosystem](https://sky.money).
+
+Spark consists of three main product categories:
+
+* **SparkLend**: The USDS and DAI centric money market protocol. Combining the best liquidity directly from Sky and vertically integrating with the best DeFi protocols.
+* **Savings**: Earn savings on your stablecoin holdings.
+* **SparkConduits:** Direct liquidity provision into DeFi markets.
+
+You will find documentation for all of these products in the sections below.
+
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>SparkLend</strong></td><td>Documentation for the SparkLend protocol</td><td><a href="sparklend/core-contracts/">core-contracts</a></td></tr><tr><td><strong>Savings</strong></td><td>Documentation for the Savings products</td><td><a href="savings/susds-token.md">susds-token.md</a></td></tr><tr><td><strong>SparkConduits</strong></td><td>Documentation for the SparkConduits</td><td><a href="sparkconduits/conduits-overview.md">conduits-overview.md</a></td></tr><tr><td><strong>Security and Audits</strong></td><td>Find security audits and learn about the bug bounty program</td><td><a href="security/security-and-audits.md">security-and-audits.md</a></td></tr><tr><td><strong>Deployments</strong></td><td>Find Spark smart contract addresses across networks</td><td><a href="deployment-addresses/ethereum-addresses.md">ethereum-addresses.md</a></td></tr></tbody></table>
 
 ***
 
 _The IP in this repository was assigned to Mars SPC Limited in respect of the MarsOne SP_
+
+You will find documentation for all of these products in the sections below:
+

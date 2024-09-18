@@ -1,4 +1,4 @@
-# ⚡ SparkLend Conduit
+# SparkLend Conduit
 
 {% embed url="https://github.com/marsfoundation/spark-conduits" %}
 
@@ -27,6 +27,7 @@ The SparkLend Conduit is a conduit contract designed to be used within the Maker
 ### `deposit`
 
 The `deposit` function is used to move funds from a given `ilk`'s `buffer` into the Conduit. From the Conduit, the funds are used to `supply` in the SparkLend Pool. The result is that:
+
 1. Funds are moved from the `buffer` to SparkLend's aToken for that asset.
 2. aTokens are minted and sent to the Conduit.
 3. The Conduit state to track the `ilk`'s portion of the aTokens in the Conduit is increased.
@@ -45,15 +46,15 @@ The `withdraw` function is used to `withdraw` funds from the SparkLend Pool into
 
 ## Invariants
 
-$$ totalShares[asset] = \sum_{n=0}^{numIlks}{shares[asset][ilk]} $$
+$$totalShares[asset] = \sum_{n=0}^{numIlks}{shares[asset][ilk]}$$
 
-$$ getTotalDeposits(asset) = \sum_{n=0}^{numIlks}{getDeposits(asset, ilk)} $$
+$$getTotalDeposits(asset) = \sum_{n=0}^{numIlks}{getDeposits(asset, ilk)}$$
 
-$$ totalRequestedShares[asset] = \sum_{n=0}^{numIlks}{requestedShares[asset][ilk]} $$
+$$totalRequestedShares[asset] = \sum_{n=0}^{numIlks}{requestedShares[asset][ilk]}$$
 
-$$ totalShares[asset] \le aToken.scaledBalanceOf(conduit) $$
+$$totalShares[asset] \le aToken.scaledBalanceOf(conduit)$$
 
-$$ getTotalDeposits(asset) \le aToken.balanceOf(conduit) $$
+$$getTotalDeposits(asset) \le aToken.balanceOf(conduit)$$
 
 {% hint style="info" %}
 ℹ️ The last two invariants are not strict equalities because of A) the potential for a permissionless transfer of the aToken into the conduit and/or B) the rounding behaviour difference (round on SparkLend vs round-down on SparkLend Conduit).
@@ -66,11 +67,12 @@ Since the SparkLend Conduit will likely require maintenance as its desired usage
 ## Technical Assumptions
 
 As with most MakerDAO contracts, non standard token implementations are assumed to not be supported. As examples, this includes tokens that:
-   - Do not have a decimals field or have more than 18 decimals.
-   - Do not revert and instead rely on a return value.
-   - Implement fee on transfer.
-   - Include rebasing logic.
-   - Implement callbacks/hooks.
+
+* Do not have a decimals field or have more than 18 decimals.
+* Do not revert and instead rely on a return value.
+* Implement fee on transfer.
+* Include rebasing logic.
+* Implement callbacks/hooks.
 
 ### Testing
 

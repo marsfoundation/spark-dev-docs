@@ -1,4 +1,4 @@
-# 🔐 Security and Audits
+# Security and Audits
 
 Spark upholds the highest security standards, inheriting MakerDAO's security practices and partnering with projects that share the same values.
 
@@ -14,10 +14,10 @@ SparkLend uses a smaller set of assets than Aave V3 mainnet with similar risk pa
 
 SparkLend was deployed using the Aave V3.0.1 release using Aave V3 on mainnet as a reference. Notable code differences include:
 
- * The DAI market has a custom interest rate strategy due to its unique relation with Maker.
- * A custom oracle had to be made for the Savings DAI market.
- * The `RewardsController` was not set up through the `PoolAddressProvider`.
- * The USDC market was added, but not enabled so it used a static $1 as the price oracle.
+* The DAI market has a custom interest rate strategy due to its unique relation with Maker.
+* A custom oracle had to be made for the Savings DAI market.
+* The `RewardsController` was not set up through the `PoolAddressProvider`.
+* The USDC market was added, but not enabled so it used a static $1 as the price oracle.
 
 ### April 24-26th, 2023 - Completion of Audits
 

@@ -1,4 +1,4 @@
-# 🚇 Conduits Overview
+# Conduits Overview
 
 {% hint style="info" %}
 It is recommend to have a working understanding of the following topics:

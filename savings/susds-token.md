@@ -90,4 +90,8 @@ ERC4626 specifies a **`Deposit`** and **`Withdraw`** event which is more verbose
 
 ## 5. Useful links
 
-*
+* [Overview of DSR](https://manual.makerdao.com/parameter-index/core/param-dai-savings-rate)
+* [DSR Documentation](https://docs.makerdao.com/smart-contract-modules/proxy-module/dsr-manager-detailed-documentation)
+* [DAI Documentation](https://docs.makerdao.com/smart-contract-modules/dai-module/dai-detailed-documentation)
+* [EIP-4626](https://eips.ethereum.org/EIPS/eip-4626)
+* [ERC-4626 Tokenized Vault Standard](https://ethereum.org/en/developers/docs/standards/tokens/erc-4626/)

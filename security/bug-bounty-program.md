@@ -1,4 +1,4 @@
-# 🐛 Bug Bounty Program
+# Bug Bounty Program
 
 Spark upholds the highest security standards, inheriting MakerDAO's security practices and partnering with projects that share the same values.
 

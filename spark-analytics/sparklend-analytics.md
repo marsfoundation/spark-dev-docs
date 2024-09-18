@@ -2,7 +2,7 @@
 hidden: true
 ---
 
-# 🦜 SparkLend Analytics
+# SparkLend Analytics
 
 There are a few efforts from the community to provide analytics around SparkLend. Here we try to capture them.
 

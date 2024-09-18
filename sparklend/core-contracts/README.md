@@ -1,2 +1,2 @@
-# 📰 Core Contracts
+# Core Contracts
 

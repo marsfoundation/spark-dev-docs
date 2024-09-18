@@ -1,2 +1,2 @@
-# 🗞 Periphery Contracts
+# Periphery Contracts
 

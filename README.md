@@ -37,6 +37,3 @@ You will find documentation for all of these products in the sections below.
 ***
 
 _The IP in this repository was assigned to Mars SPC Limited in respect of the MarsOne SP_
-
-You will find documentation for all of these products in the sections below:
-

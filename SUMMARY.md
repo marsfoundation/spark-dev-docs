@@ -54,7 +54,7 @@
 
 ## Security
 
-* [Security and Audits](security/security-and-audits.md)
+* [Security Audits](security/security-and-audits.md)
 * [Bug Bounty Program](security/bug-bounty-program.md)
 
 ## Deployment Addresses

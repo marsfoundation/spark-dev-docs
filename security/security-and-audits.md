@@ -1,41 +1,38 @@
-# Security and Audits
+---
+description: Find security audit reports for Spark products.
+---
 
-## Ethereum Mainnet SparkLend History
+# Security Audits
 
-SparkLend is based on the Aave V3 codebase which has been extensively audited. [Link to Aave v3's audits](https://docs.aave.com/developers/deployed-contracts/security-and-audits)
+## SparkLend
 
-SparkLend uses a smaller set of assets than Aave V3 mainnet with similar risk parameters. Extra care is taken to ensure this parity is as close as possible to ensure the attack surface is the same for both markets.
+SparkLend is based on the Aave v3 codebase (including 3.0.1 and 3.0.2 upgrades) which has been extensively audited. [You can find the audits of Aave v3 here.](https://aave.com/security)
 
-### March 7th, 2023 - Deployment
-
-SparkLend was deployed using the Aave V3.0.1 release using Aave V3 on mainnet as a reference. Notable code differences include:
+Notable code differences include:
 
 * The DAI market has a custom interest rate strategy due to its relation with Sky.
 * A custom oracle had to be made for the Savings DAI market.
 * The `RewardsController` was not set up through the `PoolAddressProvider`.
-* The USDC market was added, but not enabled so it used a static $1 as the price oracle.
 
-### April 24-26th, 2023 - Completion of Audits
-
-ChainSecurity completed the audits for the deployment of SparkLend along with audits of the additional code used for the custom interest rate strategy for the DAI market and the Savings DAI oracle.
-
-You can read the full audit reports:
+ChainSecurity completed the audits for the deployment of SparkLend along with audits of the additional code used for the custom interest rate strategy for the DAI market and the Savings DAI oracle. You can read the audit reports here:
 
 {% file src="../.gitbook/assets/Chainsecurity - SparkLend Deployment Verification" %}
 
 {% file src="../.gitbook/assets/Chainsecurity - DAI IR Strategy and sDAI Oracle" %}
 
-### May 10th, 2023 - SparkLend Launch
+## Spark Liquidity Layer
 
-Sky activates the D3M in [this spell](https://etherscan.io/address/0x77107F74bf30250aFFada0fbD09fa517658B4916#code) which signals the launch of SparkLend.
+{% file src="../.gitbook/assets/Cantina - Spark Liquidity Layer (2024-09-25).pdf" %}
 
-### August 20th, 2023 - Upgrade to Aave V3.0.2
+{% file src="../.gitbook/assets/Cantina - Spark Liquidity Layer (2024-10-23).pdf" %}
 
-An [upgrade is performed](https://etherscan.io/address/0x60cc45dab5f0b17789c77d5fe990f1ad80e9dd65#code) from V3.0.1 to V3.0.2 to bring the code in line with the latest changes from the Aave codebase to patch a few minor issues. You can read about the changes in the [Aave upgrade post](https://app.aave.com/governance/proposal/213/) along with audits performed on the upgrade.
+{% file src="../.gitbook/assets/Chainsecurity - Spark Liquidity Layer (2024-10-22).pdf" %}
 
-### October 19th, 2023 - USDC Market Enabled
+## Savings USDS (sUSDS)
 
-USDC market is enabled and the $1 fixed price oracle is replaced with a real one. This update also enabled a USD e-mode which does not exist on Aave V3 as of the time of this writing.
+{% file src="../.gitbook/assets/Chainsecurity - sUSDS.pdf" %}
+
+{% file src="../.gitbook/assets/Cantina - sUSDS.pdf" %}
 
 ## Savings DAI Audit (sDAI)
 

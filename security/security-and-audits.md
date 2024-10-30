@@ -34,6 +34,6 @@ ChainSecurity completed the audits for the deployment of SparkLend along with au
 
 {% file src="../.gitbook/assets/Cantina - sUSDS.pdf" %}
 
-## Savings DAI Audit (sDAI)
+## Savings DAI (sDAI)
 
 {% file src="../.gitbook/assets/Chainsecurity - sDAI" %}

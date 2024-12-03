@@ -4,6 +4,13 @@
 * [Spark Documentation](https://docs.spark.fi/)
 * [Github](https://github.com/marsfoundation)
 
+## Savings
+
+* [sUSDS Token](savings/susds-token.md)
+* [sDAI Token](savings/technical-docs.md)
+* [Cross-chain USDS & sUSDS](savings/cross-chain-usds-and-susds.md)
+* [Spark PSM](savings/spark-psm.md)
+
 ## SparkLend
 
 * [Core Contracts](sparklend/core-contracts/README.md)
@@ -37,15 +44,10 @@
   * [Testing Guide](sparklend/features/testing-guide.md)
   * [Troubleshooting](sparklend/features/troubleshooting-errors.md)
 
-## Savings
+## Spark Liquidity Layer
 
-* [sUSDS Token](savings/susds-token.md)
-* [sDAI Token](savings/technical-docs.md)
-
-## SparkConduits
-
-* [Conduits Overview](sparkconduits/conduits-overview.md)
-* [SparkLend Conduit](sparkconduits/sparklend-conduit.md)
+* [Conduits Overview](spark-liquidity-layer/conduits-overview.md)
+* [SparkLend Conduit](spark-liquidity-layer/sparklend-conduit.md)
 
 ## Spark Analytics
 

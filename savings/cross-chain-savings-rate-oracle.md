@@ -44,8 +44,8 @@ Forwarders and Receivers are bridge-specific messaging contracts. Forwarders per
 
 #### **Conversion Functions**
 
-* **`getConversionRate()`**: Returns the current conversion rate for sUSDS/USDS with maximum precision as a 27 decimal number.
-* **`getConversionRate(uint256 timestamp)`**: Returns the exact conversion rate for sUSDS/USDS for a specific `timestamp` . Can be used to fetch future or past conversion rates.
+* **`getConversionRate()`**: Returns the current exact conversion rate for sUSDS/USDS with maximum precision as a 27 decimal number.
+* **`getConversionRate(uint256 timestamp)`**: Returns the exact conversion rate for sUSDS/USDS for a specific `timestamp` as a 27 decimal number. Can be used to fetch future or conversion rates.
 * **`getConversionRateBinomialApprox()`**: Returns a binominal approximation of the current conversion rate for sUSDS/USDS as a 27 decimal number. This approximation is more gas efficient than `getConversionRate`, but it does not give you the exact number.
 * **`getConversionRateBinomialApprox(uint256 timestamp)`**: Returns a binominal approximation of the conversion rate for sUSDS/USDS for a specific `timestamp` in the future as a 27 decimal number. Can be used to approximate future conversion rates. This approximation is more gas efficient than `getConversionRate`, but it does not give you the exact number.
 * **`getConversionRateLinearApprox()`**: Returns a linear approximation of the current conversion rate for sUSDS/USDS as a 27 decimal number. This approximation is more gas efficient than `getConversionRate`, but it does not give you the exact number.
@@ -61,7 +61,7 @@ Using the conversion functions for a future rate will only be correct if the Sky
 
 The oracle contains three functions to provide the conversion rate, where one is a perfectly precise function, and the two others are approximations that in return are cheaper in gas. Depending on your use case, and if gas savings are critical you can elect to use an approximation instead of the exact value. Below is an overview of precision vs gas cost.
 
-* `getConversionRate()`: 27 decimal precision (exact value), highest gas cost
+* `getConversionRate()`: exact value, highest gas cost
 * `getConversionRateBinomialApprox():` higher precision, medium gas cost
 * `getConversionRateLinearApprox():`  lower precision, lowest gas cost
 

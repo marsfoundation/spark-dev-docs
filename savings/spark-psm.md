@@ -1,10 +1,10 @@
 # Spark PSM
 
-## 1. Introduction
+## Overview
 
 The Spark PSM extends the Sky PSM liquidity on Ethereum mainnet to other chains, starting with Base. It allows swaps between USDS, sUSDS, and USDC with no slippage or fees beyond gas, making it the top liquidity source for these pairs in DeFi. This enables holders of USDC on supported networks to easily acquire sUSDS to earn yield, at no cost beyond gas.
 
-## 2. Contract Details
+## Contract Details
 
 * Contract Name: PSM3.sol
 * Contract Source: [Spark PSM code repository](https://github.com/marsfoundation/spark-psm)
@@ -21,7 +21,7 @@ The Spark PSM extends the Sky PSM liquidity on Ethereum mainnet to other chains,
 * **`usds`**: IERC20 interface of USDS.
 * **`susds`**: IERC20 interface of sUSDS. Note that this is an ERC20 and not a ERC4626 because it's not on mainnet.
 * **`pocket`**: Address that holds custody of USDC. The `pocket` can deploy USDC to yield-bearing strategies. Defaulted to the address of the PSM itself.
-* **`rateProvider`**: Contract that returns a conversion rate between and sUSDS and USD in 1e27 precision.
+* **`rateProvider`**: Contract that returns a conversion rate between and sUSDS and USD in 1e27 precision. [See Cross-chain Savings Rate Oracle for more information.](cross-chain-savings-rate-oracle.md)
 * **`totalShares`**: Total shares in the PSM. Shares represent the ownership of the underlying assets in the PSM.
 * **`shares`**: Mapping of user addresses to their shares.
 
@@ -68,7 +68,7 @@ The Spark PSM extends the Sky PSM liquidity on Ethereum mainnet to other chains,
 * **`Deposit`**: Emitted on asset deposits.
 * **`Withdraw`**: Emitted on asset withdrawals.
 
-## 3. Key Mechanisms & Concepts
+## Key Mechanisms & Concepts
 
 ### **Fetch Liquidity**
 
@@ -78,8 +78,9 @@ You can fetch the liquidity of the PSM3 by checking the USDS and sUSDS ERC20 tok
 
 USDS and USDC are always converted at a fixed 1:1 ratio.
 
-sUSDS is a yield accumulating token, meaning its price will increase vs USDS/USDC over time. A rate provider oracle is used to provide the sUSDS price.
+sUSDS is a yield accumulating token, meaning its price will increase vs USDS/USDC over time. A [rate provider oracle](cross-chain-savings-rate-oracle.md) is used to provide the sUSDS price.
 
-## 4. Useful links
+## Additional resources
 
 * [Cross-chain USDS & sUSDS](cross-chain-usds-and-susds.md)
+* [Cross-chain Savings Rate Oracle](cross-chain-savings-rate-oracle.md)

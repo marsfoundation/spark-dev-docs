@@ -1,10 +1,12 @@
-# Goerli
+---
+hidden: true
+---
 
-SparkLend is available on [Ethereum](ethereum-addresses.md) and [Gnosis Chain](gnosis-addresses.md).
+# Testnet
 
 {% hint style="warning" %}
 Goerli testnet is no longer supported. \
-As of October 4th, new changes are not reflected in Goerli.\
+As of October 4, 2023, new changes are not reflected in Goerli.\
 \
 We recommend you run a fork of mainnet for testing and development purposes.
 {% endhint %}

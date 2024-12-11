@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Ethereum
 
 SparkLend is available on [Ethereum](ethereum-addresses.md) and [Gnosis Chain](gnosis-addresses.md).

@@ -4,12 +4,20 @@
 * [Spark Documentation](https://docs.spark.fi/)
 * [Github](https://github.com/marsfoundation)
 
+## Deployments
+
+* [Spark Address Registry](deployments/spark-address-registry.md)
+* [Ethereum](deployments/ethereum-addresses.md)
+* [Gnosis Chain](deployments/gnosis-addresses.md)
+* [Testnet](deployments/goerli-addresses.md)
+
 ## Savings
 
 * [sUSDS Token](savings/susds-token.md)
-* [sDAI Token](savings/technical-docs.md)
 * [Cross-chain USDS & sUSDS](savings/cross-chain-usds-and-susds.md)
+* [Cross-chain Savings Rate Oracle](savings/cross-chain-savings-rate-oracle.md)
 * [Spark PSM](savings/spark-psm.md)
+* [sDAI Token](savings/technical-docs.md)
 
 ## SparkLend
 
@@ -49,18 +57,12 @@
 * [Conduits Overview](spark-liquidity-layer/conduits-overview.md)
 * [SparkLend Conduit](spark-liquidity-layer/sparklend-conduit.md)
 
-## Spark Analytics
-
-* [SparkLend Analytics](https://spark.blockanalitica.com/)
-* [SparkLend Analytics](spark-analytics/sparklend-analytics.md)
-
 ## Security
 
 * [Security Audits](security/security-and-audits.md)
 * [Bug Bounty Program](security/bug-bounty-program.md)
 
-## Deployment Addresses
+## Spark Analytics
 
-* [Ethereum](deployment-addresses/ethereum-addresses.md)
-* [Gnosis Chain](deployment-addresses/gnosis-addresses.md)
-* [Goerli](deployment-addresses/goerli-addresses.md)
+* [SparkLend Analytics](https://spark.blockanalitica.com/)
+* [SparkLend Analytics](spark-analytics/sparklend-analytics.md)

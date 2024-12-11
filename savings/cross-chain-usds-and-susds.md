@@ -4,7 +4,7 @@
 If you are looking to integrate Ethereum mainnet sUSDS, you should use [this documentation instead](susds-token.md).
 {% endhint %}
 
-## 1. Introduction
+## Overview
 
 The Spark Liquidity Layer enables cross-chain liquidity of USDS and sUSDS. Integrators on these networks can tap into this liquidity by integrating these cross-chain tokens, and the [Spark PSM](spark-psm.md).&#x20;
 
@@ -14,7 +14,7 @@ The crosschain USDS and sUSDS tokens use the same simple ERC20 token implementat
 Savings USDS and the Sky Savings Rate are non-custodial and permissionless smart contracts offered by [Sky](https://sky.money), and is not issued by Spark. Spark does not have any control over the Sky Savings Rate or the sUSDS token.
 {% endhint %}
 
-## 2. Contract Details
+## Contract Details
 
 * Type/Category: Token
 * Contract Source: [Github](https://github.com/makerdao/usds/blob/master/src/Usds.sol)
@@ -43,7 +43,7 @@ The contract uses the ERC-1822 UUPS pattern for upgradeability and the ERC-1967 
 * **`Approval`**: This event is emitted when an approval is set for a specific address. It indicates that the owner has approved the spender to spend a certain amount of tokens.
 * **`Transfer`**: This event is emitted when tokens are transferred from one address to another. It indicates the amount of tokens transferred and the addresses involved in the transfer.
 
-## 3. Useful links
+## Additional resources
 
 * [Spark Liquidity Layer](https://docs.spark.fi/user-guides/spark-liquidity-layer)
 * [Spark PSM](spark-psm.md)
